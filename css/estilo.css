@@ -367,6 +367,7 @@ margin-bottom: 20px;
 }
 
 #close_lightbox{
+font-family: "Droid Sans",sans-serif;
 color:#aba9a9;
 z-index:1003;
 position:absolute;
@@ -377,6 +378,7 @@ background-color:#fff;
 top:0;
 right:0;
 cursor: pointer;
+margin-top:5px;
 }
 
 
