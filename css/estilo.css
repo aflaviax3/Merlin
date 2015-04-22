@@ -367,6 +367,7 @@ margin-bottom: 20px;
 }
 
 #close_lightbox{
+color:#aba9a9;
 z-index:1003;
 position:absolute;
 float:right;
