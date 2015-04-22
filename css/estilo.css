@@ -1,0 +1,497 @@
+#topo{
+height:150px;
+width:960px;
+background-color:red;
+margin: 0 auto;
+}
+
+#logo{
+height:150px;
+width:300px;
+background-color:#fff;
+float:left;
+}
+
+#top_logo{
+color:#d6391e;
+font-family: 'Oswald', sans-serif;
+font-style: normal;
+font-size: 25pt;
+text-align:center;
+margin-top:30px;
+}
+
+#top_logo span{
+font-weight:300;
+}
+
+#bot_logo{
+color:#5b3e70;
+font-family: 'Droid Serif', serif;
+top: 70px;
+text-align:center;
+position:absolute;
+font-style:italic;
+font-size:14px;
+}
+
+#inner_bot_logo{
+position:relative;
+width:300px;
+text-align:center;
+}
+
+.line span{
+display:inline-block;
+position:relative;
+}
+
+.line span:before,
+.line span:after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  border-top: 1px solid #5b3e70;
+  top: 9px;
+  width: 30px;
+}
+
+.line span:before {
+  right: 100%;
+  margin-right: 10px;
+}
+.line span:after {
+  left: 100%;
+  margin-left: 10px;
+}
+
+#busca{
+height:150px;
+width:300px;
+background-color:#fff;
+float:left;
+
+}
+
+#search input[type="text"]{
+background: url(../images/lupa.png) no-repeat 10px 6px #fcfcfc;
+border:1px solid #333333;
+font-family: 'Droid Sans', sans-serif;
+font-weight:300;
+font-size:11pt;
+color:#bcb3bc;
+width:250px;
+height:40px;
+padding:5px 40px;
+border-radius:5px;
+margin-top:37px;
+margin-left:20px;
+}
+
+#free_ship{
+height:150px;
+width:180px;
+background-color:#fff;
+float:left;
+}
+
+#top_free_ship{
+color:#d6391e;
+font-family: 'Droid Serif', serif;
+margin-top: 40px;
+text-align:center;
+font-style:italic;
+font-size:18px;
+}
+
+#bot_free_ship{
+color:#d6391e;
+font-family: 'Droid Sans', sans-serif;
+margin-top: 0px;
+text-align:center;
+font-style:normal;
+font-size:13px;
+font-weight:300;
+}
+
+
+#bag{
+height:150px;
+width:180px;
+background-color:#fff;
+float:left;
+}
+
+#bag img{
+height: 50px;
+width: 50px;
+margin-top: 20px;
+}
+
+#bag span{
+position:absolute;
+margin-top:30px;
+
+}
+
+.bag_text{
+color:#b3b3b3;
+margin-left:20px;
+font-family: 'Droid Sans', sans-serif;
+font-weight:300;
+font-size:16pt;
+
+}
+
+.bag_count{
+color:#d73a1e;
+font-family: 'Droid Serif', serif;
+margin-left:70px;
+font-size:16pt;
+color:red;
+}
+
+#menu{
+height:80px;
+width:960px;
+background-color:#523468;
+margin: 0 auto;
+text-align:right;
+color:#fff;
+}
+
+.menu{
+list-style:none; 
+border:none; 
+float:left; 
+margin-left:15px;
+height:60px;
+
+}
+
+.menu li{
+position:relative;
+float:left;
+
+}
+
+.menu li a{
+color: #FFF;
+text-decoration: none;
+padding: 15px 10px;
+display: block;
+height: 20px;
+vertical-align: middle;
+border-radius:5px;
+}
+
+.menu li a:hover{
+background:#422a53;
+color:#fff;
+}
+
+
+
+.seta:after{
+content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+}
+
+#sign{
+float:right;
+margin-top:29px;
+margin-right:50px;
+color:#ba8eb4;
+
+}
+
+#sign a{
+color:#FFF;
+text-decoration:none;
+}
+
+#sign span{
+margin-left:10px;
+margin-right:10px;
+}
+
+#page_title{
+height:80px;
+width:960px;
+background-color:#FFF;
+margin: 0 auto;
+position:relative;
+
+}
+
+#page_title_detail{
+font-family: 'Droid Serif', serif;
+position:absolute;
+bottom:0;
+left:50px;
+font-style: normal;
+font-weight: bold;
+font-size: 14pt;
+}
+
+#produtos{
+
+height:540px;
+width:810px;
+background-color:#fff;
+margin: 0 auto;
+padding: 30px 0px;
+}
+
+#produtos b{
+font-family: 'Droid Serif', serif;
+}
+
+#produtos span{
+font-family: 'Droid Serif', serif;
+font-weight: normal;
+color:#d93a33;
+}
+
+.prod{
+height:270px;
+width:270px;
+background-color:#FFF;
+float:left;
+}
+
+.prod:hover{
+background-color:#dfdfdf;
+}
+
+.prod img{
+height:150px;
+width:150px;
+display: block;
+margin: 50px auto 10px;
+}
+
+.caption{
+font-size: 80%;
+text-align: center;
+}
+
+#black_overlay{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+
+#white_content {
+		display: none;
+		position: fixed;
+		top: 10%;
+		left: 25%;
+		width: 700px;
+		height: 420px;
+		padding: 30px;
+		background-color: white;
+		z-index:1002;
+}
+		
+		
+#white_content ul{
+	list-style:none;
+	float:left; 
+	padding: 0px;
+    margin: 0 0 20px 0;
+	width: 100%;
+}
+
+#white_content img{
+	height: 410px;
+	width: 360px;
+}
+
+.description{
+	height:400px;
+	width:300px;
+	float:right;
+}
+
+.feature_titles{
+	font-family: 'Droid Serif', serif;
+	font-size: 14pt;
+	font-weight:bold;
+}
+
+.nomargin_padding{
+margin: 0;
+padding: 0;
+}
+
+.price_value{
+font-family: 'Droid Serif', serif;
+font-weight:bold;
+color:#d93a33;
+margin: 0;
+padding: 0;
+}
+
+.add_cart{
+position: relative;
+height: 25px;
+width: 150px;
+background-color: #D73A1E;
+border-radius: 5px;
+left: 400px;
+bottom: 15px;
+text-align: center;
+padding-top: 7px;
+cursor: pointer;
+font-family: "Droid Sans",sans-serif;
+font-weight: 300;
+color: #FFF;
+margin-bottom: 20px;
+}
+
+#close_lightbox{
+z-index:1003;
+position:absolute;
+float:right;
+height:20px;
+width:20px;
+background-color:#fff;
+top:0;
+right:0;
+cursor: pointer;
+}
+
+
+#rodape{
+height:250px;
+width:960px;
+background-color:#e6e6e6;
+margin: 0 auto;
+}
+
+#left_container{
+float:left;
+width:450px;
+height:200px;
+}
+
+
+#menu_rodape{
+height:80px;
+width:450px;
+background-color:#e6e6e6;
+margin: 30px 40px 10px 10px;
+float:left;
+text-align:right;
+color:#fff;
+}
+
+.menu_rodape_ul{
+list-style:none; 
+border:none; 
+float:left; 
+height:30px;
+}
+
+.menu_rodape_ul li{
+position:relative;
+float:left;
+
+}
+
+.menu_rodape_ul li a{
+font-family: 'Droid Sans', sans-serif;
+font-size:14pt;
+color: #db3f1e;
+text-decoration: none;
+padding: 1px 15px;
+vertical-align: middle;
+}
+
+.menu_rodape_ul li a:hover{
+color:#523468;
+}
+
+#social{
+margin-left:60px;
+float:left;
+}
+
+#rights{
+float:left;
+margin-left:60px;
+margin-top:30px;
+font-family: 'Droid Sans', sans-serif;
+font-size:11pt;
+color:66666a;
+}
+
+#right_container{
+float:left;
+width:500px;
+height:200px;
+}
+
+
+#newsletter{
+float:right;
+height:130px;
+width:380px;
+background-color:white;
+margin: 30px 40px 10px 10px;
+border-radius: 5px;
+padding:15px;
+}
+
+#top_news{
+font-family: 'Droid Serif', serif;
+font-style: italic;
+}
+
+#bot_news{
+font-family: 'Droid Sans', sans-serif;
+}
+
+
+#newsletter input[type="text"]{
+background:#fcfcfc;
+border:1px solid #333333;
+font-family: 'Droid Sans', sans-serif;
+font-weight:300;
+font-size:11pt;
+color:#aba9a9;
+width:250px;
+height:40px;
+padding:5px 10px;
+border-radius:5px;
+}
+
+#newsletter input[type="button"]{
+background:#d73a1e;
+border:1px solid #d73a1e;
+font-family: 'Droid Sans', sans-serif;
+font-weight:300;
+font-size:11pt;
+color:#fff;
+width:100px;
+height:40px;
+padding:5px 10px;
+border-radius:5px;
+}
